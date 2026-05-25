@@ -1,0 +1,63 @@
+[0.597s] Invoking command in '/home/nga/robot_social_pathfinding/my_ws/build/my_robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build
+[0.758s] running develop
+[0.840s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[0.841s]   self.local_index = Environment(self.shadow_path + sys.path)
+[0.856s] Removing /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my-robot-description.egg-link (link to .)
+[0.886s] Invoked command in '/home/nga/robot_social_pathfinding/my_ws/build/my_robot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build
+[0.887s] Invoking command in '/home/nga/robot_social_pathfinding/my_ws/src/my_robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_description build --build-base /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build install --record /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/install.log --single-version-externally-managed install_data --force
+[1.019s] running egg_info
+[1.028s] writing ../../build/my_robot_description/my_robot_description.egg-info/PKG-INFO
+[1.028s] writing dependency_links to ../../build/my_robot_description/my_robot_description.egg-info/dependency_links.txt
+[1.028s] writing entry points to ../../build/my_robot_description/my_robot_description.egg-info/entry_points.txt
+[1.028s] writing requirements to ../../build/my_robot_description/my_robot_description.egg-info/requires.txt
+[1.029s] writing top-level names to ../../build/my_robot_description/my_robot_description.egg-info/top_level.txt
+[1.046s] reading manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[1.047s] writing manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[1.047s] running build
+[1.047s] running build_py
+[1.047s] creating /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build
+[1.047s] creating /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib
+[1.047s] creating /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib/my_robot_description
+[1.047s] copying my_robot_description/social_costmap_node.py -> /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib/my_robot_description
+[1.047s] copying my_robot_description/human_fusion_node.py -> /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib/my_robot_description
+[1.047s] copying my_robot_description/__init__.py -> /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib/my_robot_description
+[1.047s] copying my_robot_description/human_node.py -> /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib/my_robot_description
+[1.047s] copying my_robot_description/global_costmap_node.py -> /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib/my_robot_description
+[1.047s] running install
+[1.050s] running install_lib
+[1.059s] creating /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[1.059s] copying /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib/my_robot_description/social_costmap_node.py -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[1.059s] copying /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib/my_robot_description/human_fusion_node.py -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[1.059s] copying /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib/my_robot_description/__init__.py -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[1.060s] copying /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib/my_robot_description/human_node.py -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[1.060s] copying /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib/my_robot_description/global_costmap_node.py -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[1.060s] byte-compiling /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/social_costmap_node.py to social_costmap_node.cpython-312.pyc
+[1.060s] byte-compiling /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/human_fusion_node.py to human_fusion_node.cpython-312.pyc
+[1.061s] byte-compiling /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/__init__.py to __init__.cpython-312.pyc
+[1.061s] byte-compiling /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/human_node.py to human_node.cpython-312.pyc
+[1.061s] byte-compiling /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/global_costmap_node.py to global_costmap_node.cpython-312.pyc
+[1.062s] running install_data
+[1.062s] copying resource/my_robot_description -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/ament_index/resource_index/packages
+[1.062s] copying package.xml -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description
+[1.062s] copying launch/start_robot.launch.py -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description/launch
+[1.062s] copying robot_description/robot_control.xacro -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description/robot_description
+[1.062s] copying robot_description/robot.urdf.xacro -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description/robot_description
+[1.062s] copying robot_description/camera.xacro -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description/robot_description
+[1.062s] copying robot_description/depth_camera.xacro -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description/robot_description
+[1.062s] copying robot_description/imu.xacro -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description/robot_description
+[1.062s] copying robot_description/robot_core.xacro -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description/robot_description
+[1.062s] copying robot_description/lidar.xacro -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description/robot_description
+[1.062s] copying robot_description/inertial_macros.xacro -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description/robot_description
+[1.062s] copying worlds/maze_world.sdf -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description/worlds
+[1.062s] copying rviz/my_robot.rviz -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description/rviz
+[1.063s] copying config/mapper_params_online_async.yaml -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description/config
+[1.063s] copying config/ekf.yaml -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/share/my_robot_description/config
+[1.063s] running install_egg_info
+[1.072s] Copying ../../build/my_robot_description/my_robot_description.egg-info to /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info
+[1.072s] running install_scripts
+[1.137s] Installing global_costmap script to /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/my_robot_description
+[1.138s] Installing human_fusion script to /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/my_robot_description
+[1.138s] Installing human_node script to /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/my_robot_description
+[1.138s] Installing social_costmap script to /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/my_robot_description
+[1.138s] writing list of installed files to '/home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/install.log'
+[1.160s] Invoked command in '/home/nga/robot_social_pathfinding/my_ws/src/my_robot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_description build --build-base /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build install --record /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/install.log --single-version-externally-managed install_data --force

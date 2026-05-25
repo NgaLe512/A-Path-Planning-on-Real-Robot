@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- IMU Plugin -->
+  <gazebo>
+    <plugin
+      filename="libgz-sim8-imu-system.so"
+      name="gz::sim::systems::Imu"/>
+  </gazebo>
+
+  <!-- Diff Drive -->
+  <gazebo>
+    <plugin
+      filename="libgz-sim8-diff-drive-system.so"
+      name="gz::sim::systems::DiffDrive">
+      
+      <!-- Wheel info -->
+      <left_joint>left_wheel_joint</left_joint>
+      <right_joint>right_wheel_joint</right_joint>
+      <wheel_separation>0.175</wheel_separation>
+      <wheel_radius>0.0325</wheel_radius>
+      
+      <!-- Topic -->
+      <topic>cmd_vel</topic>
+      
+      <!-- Frame -->
+      <frame_id>odom</frame_id>
+      <child_frame_id>base_link</child_frame_id>
+
+      <publish_odom_tf>false</publish_odom_tf>
+    </plugin>
+  </gazebo>
+
+  <!-- Joint State Publisher -->
+  <gazebo>
+    <plugin
+      filename="libgz-sim8-joint-state-publisher-system.so"
+      name="gz::sim::systems::JointStatePublisher"/>
+  </gazebo>
+
+</robot>

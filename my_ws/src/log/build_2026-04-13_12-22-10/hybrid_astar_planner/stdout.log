@@ -1,0 +1,48 @@
+running egg_info
+creating ../build/hybrid_astar_planner/hybrid_astar_planner.egg-info
+writing ../build/hybrid_astar_planner/hybrid_astar_planner.egg-info/PKG-INFO
+writing dependency_links to ../build/hybrid_astar_planner/hybrid_astar_planner.egg-info/dependency_links.txt
+writing entry points to ../build/hybrid_astar_planner/hybrid_astar_planner.egg-info/entry_points.txt
+writing requirements to ../build/hybrid_astar_planner/hybrid_astar_planner.egg-info/requires.txt
+writing top-level names to ../build/hybrid_astar_planner/hybrid_astar_planner.egg-info/top_level.txt
+writing manifest file '../build/hybrid_astar_planner/hybrid_astar_planner.egg-info/SOURCES.txt'
+reading manifest file '../build/hybrid_astar_planner/hybrid_astar_planner.egg-info/SOURCES.txt'
+writing manifest file '../build/hybrid_astar_planner/hybrid_astar_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/build
+creating /home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/build/lib
+creating /home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/build/lib/hybrid_astar_planner
+copying hybrid_astar_planner/hybrid_astar.py -> /home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/build/lib/hybrid_astar_planner
+copying hybrid_astar_planner/pure_pursuit.py -> /home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/build/lib/hybrid_astar_planner
+copying hybrid_astar_planner/teb_controller.py -> /home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/build/lib/hybrid_astar_planner
+copying hybrid_astar_planner/__init__.py -> /home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/build/lib/hybrid_astar_planner
+copying hybrid_astar_planner/planner_node.py -> /home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/build/lib/hybrid_astar_planner
+running install
+running install_lib
+creating /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/python3.12/site-packages/hybrid_astar_planner
+copying /home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/build/lib/hybrid_astar_planner/hybrid_astar.py -> /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/python3.12/site-packages/hybrid_astar_planner
+copying /home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/build/lib/hybrid_astar_planner/pure_pursuit.py -> /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/python3.12/site-packages/hybrid_astar_planner
+copying /home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/build/lib/hybrid_astar_planner/teb_controller.py -> /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/python3.12/site-packages/hybrid_astar_planner
+copying /home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/build/lib/hybrid_astar_planner/__init__.py -> /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/python3.12/site-packages/hybrid_astar_planner
+copying /home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/build/lib/hybrid_astar_planner/planner_node.py -> /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/python3.12/site-packages/hybrid_astar_planner
+byte-compiling /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/python3.12/site-packages/hybrid_astar_planner/hybrid_astar.py to hybrid_astar.cpython-312.pyc
+byte-compiling /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/python3.12/site-packages/hybrid_astar_planner/pure_pursuit.py to pure_pursuit.cpython-312.pyc
+byte-compiling /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/python3.12/site-packages/hybrid_astar_planner/teb_controller.py to teb_controller.cpython-312.pyc
+byte-compiling /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/python3.12/site-packages/hybrid_astar_planner/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/python3.12/site-packages/hybrid_astar_planner/planner_node.py to planner_node.cpython-312.pyc
+running install_data
+creating /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/share/ament_index
+creating /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/share/ament_index/resource_index
+creating /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/share/ament_index/resource_index/packages
+copying resource/hybrid_astar_planner -> /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/share/ament_index/resource_index/packages
+copying package.xml -> /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/share/hybrid_astar_planner
+creating /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/share/hybrid_astar_planner/launch
+copying launch/explore.launch.py -> /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/share/hybrid_astar_planner/launch
+running install_egg_info
+Copying ../build/hybrid_astar_planner/hybrid_astar_planner.egg-info to /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/python3.12/site-packages/hybrid_astar_planner-0.0.0-py3.12.egg-info
+running install_scripts
+Installing planner_node script to /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/hybrid_astar_planner
+Installing pure_pursuit script to /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/hybrid_astar_planner
+Installing teb_controller script to /home/nga/robot_social_pathfinding/my_ws/src/install/hybrid_astar_planner/lib/hybrid_astar_planner
+writing list of installed files to '/home/nga/robot_social_pathfinding/my_ws/src/build/hybrid_astar_planner/install.log'

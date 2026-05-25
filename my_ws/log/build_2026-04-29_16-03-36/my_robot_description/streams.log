@@ -1,0 +1,27 @@
+[0.603s] Invoking command in '/home/nga/robot_social_pathfinding/my_ws/src/my_robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_description build --build-base /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build install --record /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/install.log --single-version-externally-managed install_data
+[0.743s] running egg_info
+[0.751s] writing ../../build/my_robot_description/my_robot_description.egg-info/PKG-INFO
+[0.752s] writing dependency_links to ../../build/my_robot_description/my_robot_description.egg-info/dependency_links.txt
+[0.752s] writing entry points to ../../build/my_robot_description/my_robot_description.egg-info/entry_points.txt
+[0.752s] writing requirements to ../../build/my_robot_description/my_robot_description.egg-info/requires.txt
+[0.752s] writing top-level names to ../../build/my_robot_description/my_robot_description.egg-info/top_level.txt
+[0.770s] reading manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[0.771s] writing manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[0.771s] running build
+[0.771s] running build_py
+[0.771s] copying my_robot_description/social_costmap_node.py -> /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib/my_robot_description
+[0.771s] running install
+[0.775s] running install_lib
+[0.784s] copying /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build/lib/my_robot_description/social_costmap_node.py -> /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[0.784s] byte-compiling /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/social_costmap_node.py to social_costmap_node.cpython-312.pyc
+[0.785s] running install_data
+[0.785s] running install_egg_info
+[0.796s] removing '/home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info' (and everything under it)
+[0.796s] Copying ../../build/my_robot_description/my_robot_description.egg-info to /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info
+[0.796s] running install_scripts
+[0.872s] Installing global_costmap script to /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/my_robot_description
+[0.872s] Installing human_fusion script to /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/my_robot_description
+[0.872s] Installing human_node script to /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/my_robot_description
+[0.873s] Installing social_costmap script to /home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/my_robot_description
+[0.873s] writing list of installed files to '/home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/install.log'
+[0.898s] Invoked command in '/home/nga/robot_social_pathfinding/my_ws/src/my_robot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nga/robot_social_pathfinding/my_ws/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_description build --build-base /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/build install --record /home/nga/robot_social_pathfinding/my_ws/build/my_robot_description/install.log --single-version-externally-managed install_data
